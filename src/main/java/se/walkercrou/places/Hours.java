@@ -155,7 +155,7 @@ public class Hours {
 
         @Override
         public String toString() {
-            return String.format("%s %s:%s -- %s %s:%s", openingDay, openingTime.substring(0, 2),
+            return String.format("%s: %s:%s – %s %s:%s", openingDay, openingTime.substring(0, 2),
                     openingTime.substring(2), closingDay, closingTime.substring(0, 2), closingTime.substring(2));
         }
     }
